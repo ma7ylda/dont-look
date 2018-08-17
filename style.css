@@ -1,0 +1,290 @@
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 3vh;
+
+}
+
+html {
+    width: 100%;
+    height: 100%;
+
+}
+
+
+.mysection {
+    min-height: 100vh;
+    text-align: justify;
+    display: block;
+    background-image: url(img/bg.png);
+    background-attachment: fixed;
+
+
+
+}
+
+.mysection > .container {
+    width: 100%;
+    min-height: 100vh;
+    background-color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom:
+}
+
+
+
+::selection {
+    background: #ffff00;
+}
+
+
+
+h1 {
+    font-size: 5vh;
+    font-family: 'Lobster';
+    text-align: center;
+    padding: 15vh 0 5vh 0;
+    color: #f8f8f8;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+
+
+
+/*###### NAV ###### */
+
+#myicon {
+    border-radius: 50%;
+}
+
+.nav-link {
+    transition-duration: 1.2s;
+    font-size: 3vh;
+    margin-right: 1vw;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Berkshire+Swash', sans-serif;
+
+}
+
+.nav-link:first-child {
+    margin-left: 1vw;
+}
+
+#navbarNav {
+    margin-left: 30vw;
+}
+
+.mynav {
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+
+#navlink1:hover {
+    color: #49ceff;
+}
+
+#navlink2:hover {
+    color: rgb(255, 255, 54);
+
+}
+
+#navlink3:hover {
+    color: rgb(185, 178, 248);
+}
+
+#navlink4:hover {
+    color: #4BE3BD;
+}
+
+
+
+
+
+
+/*napis 1 slajd */
+
+.slidetext1 > h1 {
+    font-size: 10vh;
+    text-shadow: -1px 2px 5px rgb(72, 72, 72);
+}
+
+
+.slidetext1 {
+    position: absolute;
+    top: 20%;
+    font-size: 7vh;
+    font-family: 'Lobster';
+
+
+}
+
+
+/*napis 2 slajd */
+
+.slidetext2 > h1 {
+    font-size: 7vh;
+    text-shadow: -2px 2px 5px rgb(72, 72, 72);
+}
+
+.slidetext2 {
+    position: absolute;
+    top: 10%;
+    bottom: 60%;
+    left: 60vw;
+    font-size: 5vh;
+    color: #dfe0e2;
+    text-shadow: -2px 2px 5px rgb(72, 72, 72);
+    font-family: 'Lobster';
+
+
+
+}
+
+/*napis 3 slajd */
+
+.slidetext3 > h1 {
+    font-size: 7vh;
+    text-shadow: -2px 2px 5px rgb(72, 72, 72);
+
+}
+
+.slidetext3 {
+    position: absolute;
+    top: 10%;
+    bottom: 65%;
+    right: 50vw;
+    font-size: 5vh;
+    color: #dfe0e2;
+    text-shadow: -3px 3px 5px rgb(0, 0, 0);
+    font-family: 'Lobster';
+
+
+    /* dymek
+	background-color: rgba(28, 28, 28, 0.56);
+	
+	border-radius: 5vh;
+	*/
+}
+
+
+
+
+/*
+
+ul[data-graph] li:nth-child(1) {
+    color: red;
+}
+
+ul[data-graph] li:nth-child(2) {
+    color: red;
+}
+
+ul[data-graph] li:nth-child(3) {
+    color: yellow;
+}
+
+*/
+
+
+
+
+
+.leftcol {
+    float: left;
+    margin: 0 1.5vw 0 3vw;
+    min-width: 25%;
+}
+
+.rightcol {
+    float: right;
+    margin: 0 3vw 0 1.5vw;
+}
+
+/*##### PASKI PROGRESU ###### */
+
+.progress {
+    width: 55%;
+    float: right;
+    margin: 3vh;
+}
+
+.clear {
+    clear: both;
+}
+
+.hp {
+    float: left;
+    margin: 2vh 0 2vh 0;
+    font-size: 3vh;
+}
+
+.titleprog1 {
+    font-size: 3.5vh;
+    padding: 2vh 0 4vh 0;
+    font-weight: 800;
+    color: #395771;
+    text-align: center;
+}
+
+.titleprog2 {
+    font-size: 3.5vh;
+    padding: 1vh 0 1vh 0;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.progbg1 {
+    background-color: #00d4d4;
+
+}
+
+
+.progbg2 {
+    background-color: #9d9d9d;
+
+}
+
+
+
+
+
+
+
+footer {
+    height: 6%;
+    padding: 1%;
+    width: 100%;
+    color: white;
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 2vh;
+    background-color: rgba(0, 0, 0, 0.95);
+
+}
+
+
+.onecol{
+margin: 0 3vw 10vw 3vw;}
+
+
+.col-lg-12 > .mlink {
+    text-decoration: none;
+    color: #1d1d1d;
+
+}
+
+.mlink > h3 {
+    font-size: 120%;
+
+}
+
+h-contact {
+    
+    text-align: center;
+    display: inline-block;
+}
+
+
