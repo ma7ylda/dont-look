@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mstyl.css">
     <title>Matylda</title>
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
@@ -14,6 +14,7 @@
     <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="parallax.min.js"></script>
 
     <script>
         $(document).ready(function() {
@@ -33,7 +34,9 @@
                 }
             });
         });
+
     </script>
+
 </head>
 
 <body>
@@ -52,13 +55,6 @@
                     <a class="nav-link scroll" id="navlink2" href="#skills">Umiejętności</a>
                 </li>
 
-                <!-- NA PÓŹNIEJ 
-				
-				<li class="nav-item active">
-					<a class="nav-link scroll" id="navlink3" href="#lang">JĘZYKI</a>
-				</li>
-				
-				-->
                 <li class="nav-item active">
                     <a class="nav-link scroll" id="navlink4" href="#contact">Kontakt</a>
                 </li>
@@ -66,7 +62,10 @@
         </div>
     </nav>
 
-
+    <!-- ############# KARUZELA OUT###############
+   
+   
+   
     <div id="up" class="carousel slide" data-ride="carousel">
 
         <ol class="carousel-indicators">
@@ -111,6 +110,10 @@
     </div>
 
 
+   
+   <section class="image mysection" data-parallax="scroll" data-image-src="img/1.png"></section>
+-->
+
     <section id="about" class="mysection">
         <div class="container">
             <div class="row">
@@ -130,7 +133,8 @@
                         <div class="col-md rightcol">
 
 
-                            <p style="text-align: center; color: darkred">[TU BĘDZIE ZAWARTOŚĆ] <br> Strona w przebudowie
+                            <p style="text-align: center; color: darkred">
+                                !!! ZMIENIAM LAYOUT STRONY !!!
                             </p>
 
 
@@ -152,7 +156,7 @@
                     <div class="row">
                         <div class="col-md leftcol">
 
-                            <h3 class="titleprog2">Języki</h3>
+                            <h3 class="titleprog2">Technologie</h3>
 
                             <h3 class="hp">HTML</h3>
                             <div class="progress">
@@ -197,9 +201,6 @@
 
                             <div class="clear"></div>
 
-                            <h3 class="titleprog2">Narzędzia</h3>
-
-
                             <h3 class="hp">Bootstrap</h3>
                             <div class="progress">
                                 <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width: 55%"></div>
@@ -214,11 +215,12 @@
                             <div class="clear" style="padding-bottom: 10vh"></div>
 
                         </div>
+                        
+                        
                         <div class="col-md rightcol">
 
 
                             <h3 class="titleprog2">Programy graficzne</h3>
-
 
                             <h3 class="hp">Photoshop</h3>
                             <div class="progress">
@@ -235,7 +237,7 @@
 
                             <div class="clear"></div>
 
-                            <h3 class="titleprog2">Inne</h3>
+                            <h3 class="titleprog2">Narzędzia</h3>
 
 
                             <h3 class="hp">GitHub</h3>
@@ -255,22 +257,6 @@
             </div>
         </div>
     </section>
-
-
-    <!-- BLOK DODATKOWY
-	
-	
-	<section id="lang" class="mysection">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<h1>JĘZYKI</h1>
-				</div>
-			</div>
-		</div>
-	</section>
-	
-	-->
 
 
 
@@ -322,6 +308,22 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        window.sr = ScrollReveal();
+        sr.reveal('.icon', {
+            reset: true,
+            delay: 400,
+            distance: 0
+        });
+        sr.reveal('h1, h2, h3, p, .progress', {
+            reset: true,
+            delay: 400
+        });
+
+    </script>
 
 
 
