@@ -17,7 +17,6 @@ html {
     min-height: 100vh;
     text-align: justify;
     display: block;
-    background-image: url(img/bg.png);
     background-attachment: fixed;
 
 
@@ -30,10 +29,70 @@ html {
     background-color: white;
     margin-top: 0;
     margin-bottom: 0;
-    padding-bottom:
 }
 
+/* ######## PARALAKSA TŁA #############  
 
+.bgnd {
+    background-attachment: fixed;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    max-height: 1200px;
+    min-height: 200px;
+}
+
+*/
+
+.bgnd-1 {
+
+    /* Photo by Cátia Matos from Pexels */
+    background-image: url(img/003.jpg);
+    height: 100vh;
+
+}
+
+.bgnd-2 {
+    background-image: url(img/03.jpg);
+    height: 50vh;
+
+}
+
+.bgnd-3 {
+    background-image: url(img/4.jpg);
+    height: 70vh;
+
+}
+
+section.pic {
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.img-text-h1 {
+    padding-top: 40vh;
+    font-size: 10vh;
+    color: #fff;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-align: center;
+    font-family: 'Arbutus Slab', serif;
+
+
+}
+
+.img-text-h2{
+    font-size: 7vh;
+    color: #ff9d2c;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-align: right;
+    font-family: 'Ruda', sans-serif;
+    font-weight: 1000;
+    padding: 5vh 40vh;
+
+}
 
 ::selection {
     background: #ffff00;
@@ -41,17 +100,18 @@ html {
 
 
 
-h1 {
+.big-head {
     font-size: 5vh;
     font-family: 'Lobster';
     text-align: center;
-    padding: 15vh 0 5vh 0;
+    padding: 10vh 0 5vh 0;
     color: #f8f8f8;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
-
-
+.text-p{
+    padding: 3vh 0;
+}
 
 /*###### NAV ###### */
 
@@ -66,6 +126,7 @@ h1 {
     text-transform: uppercase;
     font-weight: 700;
     font-family: 'Berkshire+Swash', sans-serif;
+    color: #d3d3d3;
 
 }
 
@@ -87,106 +148,17 @@ h1 {
 }
 
 #navlink2:hover {
-    color: rgb(255, 255, 54);
+    color: #f5a03e;
 
 }
 
 #navlink3:hover {
-    color: rgb(185, 178, 248);
+    color: #a299f0;
 }
 
 #navlink4:hover {
     color: #4BE3BD;
 }
-
-
-
-
-
-
-/*napis 1 slajd */
-
-.slidetext1 > h1 {
-    font-size: 10vh;
-    text-shadow: -1px 2px 5px rgb(72, 72, 72);
-}
-
-
-.slidetext1 {
-    position: absolute;
-    top: 20%;
-    font-size: 7vh;
-    font-family: 'Lobster';
-
-
-}
-
-
-/*napis 2 slajd */
-
-.slidetext2 > h1 {
-    font-size: 7vh;
-    text-shadow: -2px 2px 5px rgb(72, 72, 72);
-}
-
-.slidetext2 {
-    position: absolute;
-    top: 10%;
-    bottom: 60%;
-    left: 60vw;
-    font-size: 5vh;
-    color: #dfe0e2;
-    text-shadow: -2px 2px 5px rgb(72, 72, 72);
-    font-family: 'Lobster';
-
-
-
-}
-
-/*napis 3 slajd */
-
-.slidetext3 > h1 {
-    font-size: 7vh;
-    text-shadow: -2px 2px 5px rgb(72, 72, 72);
-
-}
-
-.slidetext3 {
-    position: absolute;
-    top: 10%;
-    bottom: 65%;
-    right: 50vw;
-    font-size: 5vh;
-    color: #dfe0e2;
-    text-shadow: -3px 3px 5px rgb(0, 0, 0);
-    font-family: 'Lobster';
-
-
-    /* dymek
-	background-color: rgba(28, 28, 28, 0.56);
-	
-	border-radius: 5vh;
-	*/
-}
-
-
-
-
-/*
-
-ul[data-graph] li:nth-child(1) {
-    color: red;
-}
-
-ul[data-graph] li:nth-child(2) {
-    color: red;
-}
-
-ul[data-graph] li:nth-child(3) {
-    color: yellow;
-}
-
-*/
 
 
 
@@ -266,8 +238,9 @@ footer {
 }
 
 
-.onecol{
-margin: 0 3vw 10vw 3vw;}
+.onecol {
+    margin: 0 3vw 10vw 3vw;
+}
 
 
 .col-lg-12 > .mlink {
@@ -282,9 +255,7 @@ margin: 0 3vw 10vw 3vw;}
 }
 
 h-contact {
-    
+
     text-align: center;
     display: inline-block;
 }
-
-
